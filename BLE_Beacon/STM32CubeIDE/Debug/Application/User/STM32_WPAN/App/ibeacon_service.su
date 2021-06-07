@@ -1,0 +1,2 @@
+ibeacon_service.c:70:19:IBeacon_Init	88	static
+ibeacon_service.c:158:6:IBeacon_Process	64	static
