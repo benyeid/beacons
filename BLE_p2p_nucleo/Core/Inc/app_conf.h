@@ -22,10 +22,10 @@
 #ifndef __APP_CONFIG_H
 #define __APP_CONFIG_H
 
-//#include "hw.h"
+#include "hw.h"
 #include "hw_conf.h"
 #include "hw_if.h"
-//#include "ble_bufsize.h"
+#include "ble_bufsize.h"
 
 /******************************************************************************
  * P2P Server Config

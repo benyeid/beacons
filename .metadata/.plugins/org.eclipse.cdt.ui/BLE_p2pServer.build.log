@@ -1,0 +1,7 @@
+12:29:25 **** Build of configuration Debug for project BLE_p2pServer ****
+make -j8 all 
+make: *** No rule to make target 'Q:/DOKSI/Utilities/lpm/tiny_lpm/stm32_lpm.c', needed by 'Utilities/stm32_lpm.o'.  Stop.
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+12:29:28 Build Failed. 1 errors, 0 warnings. (took 2s.575ms)
+

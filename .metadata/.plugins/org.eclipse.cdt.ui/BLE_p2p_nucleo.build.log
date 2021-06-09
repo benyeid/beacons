@@ -1,72 +1,42 @@
-16:41:18 **** Incremental Build of configuration Debug for project BLE_p2p_nucleo ****
+10:27:03 **** Incremental Build of configuration Debug for project BLE_p2p_nucleo ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/app_debug.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/app_debug.d" -MT"Core/Src/app_debug.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app_debug.o"
-arm-none-eabi-gcc "../Core/Src/app_entry.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/app_entry.d" -MT"Core/Src/app_entry.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app_entry.o"
-arm-none-eabi-gcc "../Core/Src/hw_timerserver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/hw_timerserver.d" -MT"Core/Src/hw_timerserver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hw_timerserver.o"
-arm-none-eabi-gcc "../Core/Src/hw_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/hw_uart.d" -MT"Core/Src/hw_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/hw_uart.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32_lpm_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32_lpm_if.d" -MT"Core/Src/stm32_lpm_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32_lpm_if.o"
-arm-none-eabi-gcc "../Core/Src/stm32wbxx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32wbxx_hal_msp.d" -MT"Core/Src/stm32wbxx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_hal_msp.o"
-../Core/Src/stm32_lpm_if.c:23:10: fatal error: stm32_lpm.h: No such file or directory
-   23 | #include "stm32_lpm.h"
-      |          ^~~~~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/app_debug.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../STM32_WPAN -I../Utilities -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/app_debug.d" -MT"Core/Src/app_debug.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app_debug.o"
+arm-none-eabi-gcc "../Core/Src/app_entry.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../STM32_WPAN -I../Utilities -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/app_entry.d" -MT"Core/Src/app_entry.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app_entry.o"
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../STM32_WPAN -I../Utilities -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32wbxx_hal_msp.d" -MT"Core/Src/stm32wbxx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_hal_msp.o"
+arm-none-eabi-gcc "../Core/shci.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../STM32_WPAN -I../Utilities -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/shci.d" -MT"Core/shci.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/shci.o"
+../Core/shci.c:24:10: fatal error: shci_tl.h: No such file or directory
+   24 | #include "shci_tl.h"
+      |          ^~~~~~~~~~~
 compilation terminated.
-make: *** [Core/Src/subdir.mk:59: Core/Src/stm32_lpm_if.o] Error 1
+make: *** [Core/subdir.mk:19: Core/shci.o] Error 1
 make: *** Waiting for unfinished jobs....
-../Core/Src/main.c:45:10: fatal error: stm32_lpm.h: No such file or directory
-   45 | #include "stm32_lpm.h"
-      |          ^~~~~~~~~~~~~
-compilation terminated.
-make: *** [Core/Src/subdir.mk:57: Core/Src/main.o] Error 1
-In file included from ../Core/Inc/app_conf.h:27,
-                 from ../Core/Inc/app_common.h:36,
-                 from ../Core/Src/app_entry.c:23:
-../Core/Inc/hw_if.h:35:10: fatal error: stm32wbxx_ll_ipcc.h: No such file or directory
-   35 | #include "stm32wbxx_ll_ipcc.h"
-      |          ^~~~~~~~~~~~~~~~~~~~~
-compilation terminated.
-In file included from ../Core/Inc/app_conf.h:27,
-                 from ../Core/Inc/app_common.h:36,
-                 from ../Core/Src/hw_timerserver.c:23:
-../Core/Inc/hw_if.h:35:10: fatal error: stm32wbxx_ll_ipcc.h: No such file or directory
-   35 | #include "stm32wbxx_ll_ipcc.h"
-      |          ^~~~~~~~~~~~~~~~~~~~~
-compilation terminated.
-In file included from ../Core/Inc/app_conf.h:27,
-                 from ../Core/Inc/app_common.h:36,
-                 from ../Core/Src/app_debug.c:23:
-../Core/Inc/hw_if.h:35:10: fatal error: stm32wbxx_ll_ipcc.h: No such file or directory
-   35 | #include "stm32wbxx_ll_ipcc.h"
-      |          ^~~~~~~~~~~~~~~~~~~~~
-compilation terminated.
-In file included from ../Core/Inc/app_conf.h:27,
-                 from ../Core/Inc/app_common.h:36,
-                 from ../Core/Src/hw_uart.c:23:
-../Core/Inc/hw_if.h:35:10: fatal error: stm32wbxx_ll_ipcc.h: No such file or directory
-   35 | #include "stm32wbxx_ll_ipcc.h"
-      |          ^~~~~~~~~~~~~~~~~~~~~
-compilation terminated.
 ../Core/Src/stm32wbxx_hal_msp.c: In function 'HAL_UART_MspInit':
 ../Core/Src/stm32wbxx_hal_msp.c:99:27: error: 'STLINK_RX_Pin' undeclared (first use in this function)
    99 |     GPIO_InitStruct.Pin = STLINK_RX_Pin|STLINK_TX_Pin;
       |                           ^~~~~~~~~~~~~
 ../Core/Src/stm32wbxx_hal_msp.c:99:27: note: each undeclared identifier is reported only once for each function it appears in
-make: *** [Core/Src/subdir.mk:51: Core/Src/app_entry.o] Error 1
-make: *** [Core/Src/subdir.mk:53: Core/Src/hw_timerserver.o] Error 1
-make: *** [Core/Src/subdir.mk:49: Core/Src/app_debug.o] Error 1
-make: *** [Core/Src/subdir.mk:55: Core/Src/hw_uart.o] Error 1
 ../Core/Src/stm32wbxx_hal_msp.c:99:41: error: 'STLINK_TX_Pin' undeclared (first use in this function)
    99 |     GPIO_InitStruct.Pin = STLINK_RX_Pin|STLINK_TX_Pin;
       |                                         ^~~~~~~~~~~~~
+../Core/Src/app_debug.c:27:10: fatal error: shci.h: No such file or directory
+   27 | #include "shci.h"
+      |          ^~~~~~~~
+compilation terminated.
+../Core/Src/app_entry.c:26:10: fatal error: app_ble.h: No such file or directory
+   26 | #include "app_ble.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:55: Core/Src/app_debug.o] Error 1
 ../Core/Src/stm32wbxx_hal_msp.c: In function 'HAL_UART_MspDeInit':
 ../Core/Src/stm32wbxx_hal_msp.c:133:28: error: 'STLINK_RX_Pin' undeclared (first use in this function)
   133 |     HAL_GPIO_DeInit(GPIOB, STLINK_RX_Pin|STLINK_TX_Pin);
       |                            ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:57: Core/Src/app_entry.o] Error 1
 ../Core/Src/stm32wbxx_hal_msp.c:133:42: error: 'STLINK_TX_Pin' undeclared (first use in this function)
   133 |     HAL_GPIO_DeInit(GPIOB, STLINK_RX_Pin|STLINK_TX_Pin);
       |                                          ^~~~~~~~~~~~~
-make: *** [Core/Src/subdir.mk:61: Core/Src/stm32wbxx_hal_msp.o] Error 1
+make: *** [Core/Src/subdir.mk:71: Core/Src/stm32wbxx_hal_msp.o] Error 1
 "make -j8 all" terminated with exit code 2. Build might be incomplete.
 
-16:41:22 Build Failed. 18 errors, 0 warnings. (took 4s.38ms)
+10:27:07 Build Failed. 12 errors, 0 warnings. (took 4s.406ms)
 
