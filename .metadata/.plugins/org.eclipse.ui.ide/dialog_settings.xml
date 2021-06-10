@@ -6,6 +6,11 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_TransparentMode"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\BLE_p2pClient_dongle"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pClient_dongle\STM32CubeIDE"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pClient_dongle"/>
 			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer"/>
 		</list>
 	</section>

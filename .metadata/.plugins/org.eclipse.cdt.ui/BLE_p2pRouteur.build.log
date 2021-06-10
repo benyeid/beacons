@@ -1,7 +1,7 @@
-09:19:26 **** Incremental Build of configuration Debug for project BLE_p2pRouteur ****
+16:11:46 **** Incremental Build of configuration Debug for project BLE_p2pRouteur ****
 make -j8 all 
-make: *** No rule to make target 'Q:/DOKSI/Utilities/lpm/tiny_lpm/stm32_lpm.c', needed by 'Utilities/stm32_lpm.o'.  Stop.
+make: *** No rule to make target 'Q:/DOKSI/EGYETEM/DTU/SYNTHESIS/STMProject/BLE_p2pRouteur_dongle/STM32CubeIDE/Utilities/lpm/tiny_lpm/stm32_lpm.c', needed by 'Utilities/stm32_lpm.o'.  Stop.
 "make -j8 all" terminated with exit code 2. Build might be incomplete.
 
-09:19:28 Build Failed. 1 errors, 0 warnings. (took 2s.209ms)
+16:11:48 Build Failed. 1 errors, 0 warnings. (took 1s.667ms)
 

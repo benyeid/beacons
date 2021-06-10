@@ -1,0 +1,7 @@
+16:25:58 **** Build of configuration Debug for project BLE_TransparentMode ****
+make -j8 all 
+make: *** No rule to make target 'Q:/DOKSI/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c', needed by 'Utilities/dbg_trace.o'.  Stop.
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:26:00 Build Failed. 1 errors, 0 warnings. (took 2s.122ms)
+

@@ -9,9 +9,41 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Utilities/sequencer/subdir.mk
+-include Utilities/lpm/tiny_lpm/subdir.mk
 -include Utilities/subdir.mk
+-include Middlewares/STM32_WPAN/utilities/subdir.mk
+-include Middlewares/STM32_WPAN/interface/patterns/ble_thread/vcp/subdir.mk
+-include Middlewares/STM32_WPAN/interface/patterns/ble_thread/tl/subdir.mk
+-include Middlewares/STM32_WPAN/interface/patterns/ble_thread/shci/subdir.mk
+-include Middlewares/STM32_WPAN/interface/patterns/ble_thread/lhci/subdir.mk
+-include Middlewares/STM32_WPAN/ble/svc/Src/subdir.mk
+-include Middlewares/STM32_WPAN/ble/mesh/Src/subdir.mk
+-include Middlewares/STM32_WPAN/ble/mesh/PAL/STM32WB/subdir.mk
+-include Middlewares/STM32_WPAN/ble/mesh/MeshModel/Src/subdir.mk
+-include Middlewares/STM32_WPAN/ble/menu/subdir.mk
+-include Middlewares/STM32_WPAN/ble/core/template/subdir.mk
+-include Middlewares/STM32_WPAN/ble/core/auto/subdir.mk
 -include Middlewares/STM32_WPAN/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Core/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/VIDEO/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/Template/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/MSC/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/HID/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/DFU/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/CustomHID/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/CDC_RNDIS/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/CDC_ECM/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/BillBoard/Src/subdir.mk
+-include Middlewares/STM32_USB_Device_Library/Class/AUDIO/Src/subdir.mk
+-include Drivers/STM32WBxx_HAL_Driver/Src/subdir.mk
 -include Drivers/STM32WBxx_HAL_Driver/subdir.mk
+-include Drivers/CMSIS/Device/ST/STM32WBxx/Source/Templates/iar/subdir.mk
+-include Drivers/CMSIS/Device/ST/STM32WBxx/Source/Templates/gcc/subdir.mk
+-include Drivers/CMSIS/Device/ST/STM32WBxx/Source/Templates/arm/subdir.mk
+-include Drivers/CMSIS/Device/ST/STM32WBxx/Source/Templates/subdir.mk
+-include Drivers/CMSIS/Core/Template/ARMv8-M/subdir.mk
 -include Drivers/CMSIS/subdir.mk
 -include Drivers/BSP/P-NUCLEO-WB55.Nucleo/subdir.mk
 -include Application/User/Startup/subdir.mk
@@ -68,7 +100,7 @@ main-build: BLE_p2pServer.elf secondary-outputs
 
 # Tool invocations
 BLE_p2pServer.elf: $(OBJS) $(USER_OBJS) Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE\STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BLE_p2pServer.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLE_p2pServer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "BLE_p2pServer.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLE_p2pServer.map" -Wl,--gc-sections -static -L"Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE\Middlewares\STM32_USB_Device_Library\Class" -L"Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE\Middlewares\STM32_WPAN" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

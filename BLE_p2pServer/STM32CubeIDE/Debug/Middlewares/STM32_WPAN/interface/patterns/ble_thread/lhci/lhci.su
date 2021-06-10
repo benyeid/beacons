@@ -1,0 +1,12 @@
+stm32wbxx_ll_system.h:1511:26:LL_DBGMCU_GetDeviceID	4	static
+stm32wbxx_ll_system.h:1522:26:LL_DBGMCU_GetRevisionID	4	static
+stm32wbxx_ll_system.h:2221:26:LL_FLASH_GetUDN	4	static
+stm32wbxx_ll_system.h:2233:26:LL_FLASH_GetDeviceID	4	static
+stm32wbxx_ll_system.h:2245:26:LL_FLASH_GetSTCompanyID	4	static
+stm32wbxx_ll_utils.h:200:26:LL_GetUID_Word0	4	static
+stm32wbxx_ll_utils.h:209:26:LL_GetUID_Word1	4	static
+stm32wbxx_ll_utils.h:218:26:LL_GetUID_Word2	4	static
+stm32wbxx_ll_utils.h:242:26:LL_GetPackageType	4	static
+lhci.c:37:6:LHCI_C1_Write_Register	40	static,ignoring_inline_asm
+lhci.c:87:6:LHCI_C1_Read_Register	32	static
+lhci.c:127:6:LHCI_C1_Read_Device_Information	32	static

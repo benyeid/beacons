@@ -45,12 +45,12 @@
 		<link>
 			<name>Utilities/stm32_lpm.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Utilities/lpm/tiny_lpm/stm32_lpm.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Utilities/lpm/tiny_lpm/stm32_lpm.c</locationURI>
 		</link>
 		<link>
 			<name>Utilities/stm32_seq.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Utilities/sequencer/stm32_seq.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Utilities/sequencer/stm32_seq.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/CMSIS/system_stm32wbxx.c</name>
@@ -160,92 +160,92 @@
 		<link>
 			<name>Middlewares/STM32_WPAN/ble_gap_aci.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gap_aci.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/core/auto/ble_gap_aci.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/ble_gatt_aci.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_gatt_aci.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/core/auto/ble_gatt_aci.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/ble_hal_aci.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hal_aci.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/core/auto/ble_hal_aci.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/ble_hci_le.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_hci_le.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/core/auto/ble_hci_le.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/ble_l2cap_aci.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/core/auto/ble_l2cap_aci.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/dbg_trace.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/utilities/dbg_trace.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/hci_tl.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/hci_tl_if.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl_if.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/osal.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/core/template/osal.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/core/template/osal.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/otp.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/utilities/otp.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/utilities/otp.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/p2p_stm.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/svc/Src/p2p_stm.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/shci.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/shci_tl.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/shci_tl_if.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/stm_list.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/utilities/stm_list.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/utilities/stm_list.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/stm_queue.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/utilities/stm_queue.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/utilities/stm_queue.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/svc_ctl.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/ble/svc/Src/svc_ctl.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/tl_mbox.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c</locationURI>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/STM32CubeIDE/Middlewares/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/Core/app_debug.c</name>
