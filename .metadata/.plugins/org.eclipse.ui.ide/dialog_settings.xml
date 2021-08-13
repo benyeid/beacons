@@ -6,6 +6,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\Workspace\Nucleo_board\ProximityExample"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STM32Cube_FW_WB_V1.11.1\Projects\P-NUCLEO-WB55.Nucleo\Applications\BLE\BLE_Proximity\STM32CubeIDE"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STM32Cube_FW_WB_V1.11.1\Projects\P-NUCLEO-WB55.Nucleo\Applications\BLE\BLE_MeshLightingLPN\STM32CubeIDE"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STM32Cube_FW_WB_V1.11.1\Projects\P-NUCLEO-WB55.USBDongle\Applications\BLE\BLE_MeshLightingPRFNode"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STM32Cube_FW_WB_V1.11.1\Projects\P-NUCLEO-WB55.USBDongle\Applications\BLE\BLE_MeshLightingPRFNode\STM32CubeIDE"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STM32Cube_FW_WB_V1.11.1\Projects\P-NUCLEO-WB55.Nucleo\Applications\BLE\BLE_MeshLightingPRFNode\STM32CubeIDE"/>
+			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_Nucleo_Server"/>
 			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_TransparentMode"/>
 			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\STMProject\BLE_p2pServer\STM32CubeIDE"/>
 			<item value="Q:\DOKSI\EGYETEM\DTU\SYNTHESIS\BLE_p2pClient_dongle"/>

@@ -60,17 +60,17 @@
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_cortex.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_dma_ex.c</name>
@@ -140,7 +140,7 @@
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_tim.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_tim_ex.c</name>
@@ -150,12 +150,12 @@
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_uart_ex.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/STM32_WPAN/ble_gap_aci.c</name>
@@ -290,7 +290,7 @@
 		<link>
 			<name>Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c</name>
 			<type>1</type>
-			<locationURI>$%7BPARENT-6-PROJECT_LOC%7D/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c</locationURI>
+			<locationURI>$%7BPARENT-0-PROJECT_LOC%7D/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/STM32_WPAN/App/app_ble.c</name>

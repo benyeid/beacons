@@ -1,0 +1,10 @@
+09:32:01 **** Incremental Build of configuration Debug for project Mesh_Nucleo ****
+make -j8 all 
+arm-none-eabi-size   Mesh_Nucleo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57376	    787	  11406	  69569	  10fc1	Mesh_Nucleo.elf
+Finished building: default.size.stdout
+ 
+
+09:32:04 Build Finished. 0 errors, 0 warnings. (took 3s.264ms)
+
